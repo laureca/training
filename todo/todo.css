@@ -16,7 +16,7 @@ section.paper {
     text-transform: uppercase;
 }
 
-p.title {
+div.title {
     padding-bottom: 15px;
     border-bottom: 2px solid #636363;
 }
