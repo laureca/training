@@ -1,0 +1,37 @@
+body {
+    background-color: #EBEBEA;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    color: #373737;
+}
+
+section.paper {
+    background: white;
+    width: 500px;
+    border-radius: 5px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px #41414144;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+p.title {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #636363;
+}
+
+input.item {
+    text-align: center;
+    width: 420px;
+}
+
+button.plus {
+    background: none;
+    border: 0px;
+    font-size: 15px;
+    width: 50px;
+    margin: 10px 0 0;
+    cursor: pointer;
+}
+
