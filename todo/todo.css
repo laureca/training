@@ -35,3 +35,16 @@ button.plus {
     cursor: pointer;
 }
 
+button.edit {
+    background: none;
+    border: 0px;
+    color: #636363;
+    font-size: 12px;
+}
+
+button.delete {
+    background: none;
+    border: 0px;
+    color: #636363;
+    font-size: 12px;
+}
