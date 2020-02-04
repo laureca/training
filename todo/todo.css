@@ -16,9 +16,11 @@ section.paper {
     text-transform: uppercase;
 }
 
-div.title {
-    padding-bottom: 15px;
+h3.title {
+    font-weight: normal;
+    padding-bottom: 10px;
     border-bottom: 2px solid #636363;
+    font-size: 15px;
 }
 
 input.item {
@@ -33,6 +35,17 @@ button.plus {
     width: 50px;
     margin: 10px 0 0;
     cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    overflow: hidden;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
 }
 
 button.edit {
