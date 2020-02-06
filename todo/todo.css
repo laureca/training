@@ -53,7 +53,7 @@ ul li input[type=text] {
 }
 
 ul li.editMode input[type=text] {
-    display:block;
+    display:inline;
 }
   
 ul li.editMode label {
