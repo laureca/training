@@ -14,7 +14,7 @@
                 <h3 class="title">Adicione um item</h3>
                 <p>
                     <input type="text" class="item" id="novo-item">
-                    <button class="plus" onclick="novoElemento(novoItem)"> + </button>
+                    <button class="plus" onclick="novoElemento()" > + </button>
                 </p>
             </div>
             <div>
@@ -24,15 +24,15 @@
                         <input type="checkbox"> 
                         <label>Ir ao shopping</label>
                         <input type="text" value="Ir ao shopping">
-                        <button class="edit">Editar</button>
-                        <button class="delete">Deletar</button>
+                        <button class="edit" onclick="editarItem()">Editar</button>
+                        <button class="delete" onclick="deletarItem()">Deletar</button>
                     </li>
                     <li class="editMode">
                         <input type="checkbox"> 
                         <label>Comprar batata</label>
                         <input type="text" value="Comprar batata">
-                        <button class="edit">Editar</button>
-                        <button class="delete">Deletar</button>
+                        <button class="edit" onclick="editarItem()">Editar</button>
+                        <button class="delete" onclick="deletarItem()">Deletar</button>
                     </li>
                 </ul>
             </div>
@@ -43,8 +43,8 @@
                         <input type="checkbox" checked=""> 
                         <label>Lavar louça</label>
                         <input type="text" value="Comprar batata">
-                        <button class="edit">Editar</button>
-                        <button class="delete">Deletar</button>
+                        <button class="edit" onclick="editarItem()">Editar</button>
+                        <button class="delete" onclick="deletarItem()">Deletar</button>
                     </li>
                 </ul>
             </div>
